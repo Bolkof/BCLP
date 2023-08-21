@@ -24,3 +24,24 @@ Latino:
 ```
 
 ## comentarios de múltiples lineas
+
+LUa:
+```lua
+-- Esto es un comentario en Lua 
+```
+
+Python:
+```python
+# Esto es un comentario en Python
+```
+
+Dart:
+```dart
+// Esto es un comentario en Dart
+```
+
+Latino:
+```latino
+// esto es un comentario en Latino
+```
+
