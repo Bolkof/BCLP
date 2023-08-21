@@ -1,4 +1,4 @@
-# comentarios, que zon? 
+# comentarios, que són? 
 Los comentarios son instrucciones que se incluyen en el código fuente para describir su funcionamiento y no tienen ningún impacto en la ejecución del programa.
 
 ## comentarios de una sola linea
