@@ -42,8 +42,8 @@ var falso = false;
 
 Ejemplo:
 ```latino
-var verdadero = true;
-var falso = false;
+verdadero = Verdadero 
+falso = Falso 
 ```
 
 
