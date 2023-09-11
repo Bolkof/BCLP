@@ -1,4 +1,4 @@
-En Python, Dart, Lua y JavaScript, los booleanos se manejan de la siguiente manera:
+En Python, Dart, Latino, Lua y JavaScript, los booleanos se manejan de la siguiente manera:
 
 **Python:**
 - Los valores booleanos se representan como `True` y `False`. Es importante notar que los valores booleanos comienzan con mayúscula.
@@ -35,5 +35,19 @@ Ejemplo:
 var verdadero = true;
 var falso = false;
 ```
+
+
+**Latino:**
+- Los operadores lógicos se usan para determinar la lógica entre variables o valores y estos devuelven **Verdadero** o **Falso**, dependiendo si la expresión es verdadera o falsa.
+
+Ejemplo:
+```latino
+var verdadero = true;
+var falso = false;
+```
+
+
+Los operadores lógicos se utilizan comúnmente en la toma de decisiones en programación.
+
 
 En todos estos lenguajes, los valores booleanos se utilizan para expresar lógica condicional y control de flujo en estructuras como declaraciones `if`, bucles y expresiones booleanas en general.
