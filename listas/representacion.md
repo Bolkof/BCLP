@@ -1,10 +1,19 @@
-Las listas (o arrays) se representan de manera diferente en Python, Dart, Lua y JavaScript. Aquí tienes ejemplos de cómo se ven las listas en estos cuatro lenguajes:
+Las listas o arrays (también son conocidas como arreglos, matrices o vectores en otros lenguajes de programación) se representan de manera diferente en Python, Latino Dart, Lua y JavaScript. Aquí tienes ejemplos de cómo se ven las listas en estos cinco lenguajes:
 
 **Python:**
 En Python, las listas se representan utilizando corchetes `[]` y pueden contener una variedad de tipos de datos, incluidos números, cadenas y otros objetos.
 
 ```python
 lista = [1, 2, 3, 4, 5]  # Ejemplo de una lista de números
+```
+
+**Latino:**
+Sn variables que pueden almacenar múltiples Las listas o arrays (también son conocidas como arreglos, matrices o vectores en otros lenguajes de programación)  organizados por índice.
+Entre algunos de los tipos de datos que una lista puede simultáneamente almacenar pueden ser: lógicos, numéricos, cadenas, otras listas y/o diccionarios.
+Latino dispone de una librería para el manejo de listas
+
+```latino
+lista = [1, 2, 3, 4, 5]  // Ejemplo de una lista de números
 ```
 
 **Dart:**
