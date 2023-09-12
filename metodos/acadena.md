@@ -82,11 +82,10 @@ local cadena = tostring(valor_booleano)
 var valorBooleano = true;
 var cadena = valorBooleano.toString();
 ```
-Estos ejemplos convertirán un valor booleano (`True` o `false`) en una cadena de caracteres (`"True"` o `"false"`).
+Estos ejemplos convertirán un valor booleano (`True` o `false`) en una cadena de caracteres (`"True"` o `"false"`), mientras que en latino:
 
 **Latino:**
 ```latino
 valor_booleano = verdadero
 cadena = str(valor_booleano)
-// devolverá verdadero como cadena de texto y no como booleano. 
 ```
