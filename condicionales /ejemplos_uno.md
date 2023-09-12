@@ -53,6 +53,8 @@ si edad >= 18
 sino
   escribir("Eres menor de edad")
 fin
+```
+
 # ejemplo 2
 
 En estos ejemplos, se utilizan declaraciones condicionales `if-elif-else` "si-osi-sino" para evaluar diferentes situaciones en función del valor de la variable `puntaje`. Dependiendo del valor, se imprime un mensaje correspondiente.
