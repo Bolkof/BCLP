@@ -12,7 +12,7 @@ void main() {
 }
 ```
 
-**Javascript:
+**Javascript:**
 ```javascript 
 let contador = 0;
 while (contador < 5) {
