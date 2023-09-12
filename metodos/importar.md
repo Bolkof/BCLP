@@ -78,7 +78,7 @@ Estos ejemplos demuestran cómo importar módulos o archivos desde un subdirecto
 
 **Latino:**
 Con el comando incluir( ), para especificar archivos en subdirectorios varia dependiendo del sistema operativo.
-``
+```
 mi_proyecto/
   |- carpeta/
       |- modulo.lat
