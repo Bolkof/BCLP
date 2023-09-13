@@ -17,7 +17,8 @@ anumero(falso)
 ```
 "nulo" no retorna 0, ya que su valor es representado por un valor nulo. De hay el de crear una funcion
 ```
-miBooleano = cierto // cierto, verdadero, falso o nulo
+miBooleano = cierto // puede ser: cierto, verdadero, falso o nulo
+
 funcion booleanoABinario(miBooleano)
   si valor == nulo
     retornar 0
@@ -32,7 +33,6 @@ funcion booleanoABinario(miBooleano)
   fin
 fin
 ```
-
 La similitud en el código entre Dart, Lua y JavaScript para convertir booleanos a números se debe a que estos lenguajes comparten un enfoque común en muchas estructuras y operaciones básicas. Aunque no tienen un método nativo específico para realizar esta conversión como python y latino, utilizan operadores y constructores similares.
 
 **En Dart y JavaScript:**
