@@ -56,15 +56,20 @@ void main() {
 
 
 **Lua:**
-Lua no tiene una función de conversión directa de texto a booleano. Sin embargo, puedes implementar tu propia función personalizada para hacerlo. Por ejemplo:
+Lua no tiene una función de conversión nativa de texto a booleano. Sin embargo, puedes implementar tu propia función personalizada para hacerlo. Por ejemplo:
 
 ```lua
-function textoABooleano(texto)
-    return texto == "true"
+-- Función para convertir una cadena en un valor booleano
+
+function textoABooleano(str)
+    return str:lower() == "true" or #str > 0
 end
 
-local valor_booleano1 = textoABooleano("true")  -- Esto devuelve true
-local valor_booleano2 = textoABooleano("false")  -- Esto devuelve false
+print(textoABooleano(tostring("True")))  -- Esto devuelve true
+print(textoABooleano(tostring("False")))  -- Esto devuelve true (cualquier cadena no vacía es true)
+print(textoABooleano(tostring("")))  -- Esto devuelve false
+print(textoABooleano(tostring(0)))  -- Esto devuelve false
+print(textoABooleano(tostring(42)))  -- Esto devuelve true (cualquier número distinto de 0 es true)
 ```
 
 **JavaScript: Boolean() o JSON.parse()**
