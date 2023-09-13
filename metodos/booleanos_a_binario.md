@@ -1,4 +1,4 @@
-Para convertir miBooleanos a números en los lenguajes de programación, puedes usar los siguientes métodos:
+Para convertir miBooleanos a números (0 ó 1) en los lenguajes de programación, puedes usar los siguientes métodos:
 
 1. **Python**:
 
