@@ -4,9 +4,7 @@ Python, cuando se coloca una letra "f" antes de las comillas, se está utilizand
 
 En Dart, esta característica se conoce como "string interpolation" y se utiliza con el símbolo "$" o "${}" dentro de una cadena.
 
-En Lua y JavaScript, la interpolación de cadenas se logra utilizando el operador de concatenación ("..") o utilizando plantillas de cadenas (template strings) con el símbolo "`" (acento grave) en JavaScript.
-
-En Latino no existe este concepto 
+En Lua y Latino, la interpolación de cadenas se logra utilizando el operador de concatenación ("..") o utilizando plantillas de cadenas (template strings) con el símbolo "`" (acento grave) en JavaScript.
 
 Ejemplo en Python (f-strings):
 ```python
@@ -34,6 +32,13 @@ Ejemplo en JavaScript (template strings):
 const nombre = "Alice";
 const edad = 30;
 const mensaje = `Hola, me llamo ${nombre} y tengo ${edad} años.`;
+```
+
+Ejemplo en Latino (concatenación ):
+```python
+nombre = "Alice"
+edad = 30
+mensaje = "Hola, me llamo " .. nombre .. " y tengo " .. edad .. " años." 
 ```
 
 En resumen, aunque la sintaxis varía entre los lenguajes, la funcionalidad de interpolación de cadenas permite incorporar valores variables y expresiones en una cadena de texto de manera más conveniente y legible.
