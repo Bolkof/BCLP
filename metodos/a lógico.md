@@ -1,6 +1,6 @@
 Para convertir texto o números a valores booleanos en Python, Dart, Lua y JavaScript, puedes utilizar los siguientes métodos:
 
-**Python:bool() **
+**Python:bool()**
 En Python, puedes usar la función `bool()` para convertir diferentes tipos de entrada en valores booleanos. Por ejemplo:
 
 ```python
@@ -11,7 +11,7 @@ print(bool(0))  # Esto devuelve False
 print(bool(42))  # Esto devuelve True (cualquier número distinto de 0 es True)
 ```
 
-**Latino:alogico() **
+**Latino:alogico()**
 En Latino, puedes usar la función `alogico()` para convertir diferentes tipos de entrada en valores booleanos. Por ejemplo:
 
 ```latino
