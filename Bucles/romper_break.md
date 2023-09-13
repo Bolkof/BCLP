@@ -49,17 +49,12 @@ for i in range(5):
 **Latino** La condición o sentencia Romper (Break) detiene las repeticiones (rompe) de los bucles si, mientras, rango y desde. Detiene la operación de un bucle y, el programa, continua con la siguiente operación. 
 
 ```latino
-/*
-Mientras la operación sea verdadera
-este código escribirá en pantalla
-los siguientes números:
-0 1 2 3 4 5 
-*/
-
-i=0
-
-mientras i < 5
+para i en rango(0, 5)
   escribir(i)
-  i++            //incrementamos el valor de i
+    si (i == 3)
+      romper
+    fin
+  fin
 fin
+#salida: 0 1 2 3
 ```
