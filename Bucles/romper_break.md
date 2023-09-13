@@ -1,8 +1,65 @@
-===============
-La **condición o sentencia Romper (Break)** detiene las repeticiones (rompe) de los bucles :ref:`si <siLink>`, :ref:`mientras <mientrasLink>`, :ref:`rango <rangoLink>` y :ref:`desde <desdeLink>`.
+El uso de la instrucción `break/romper` en bucles es común en Python, Latino, Dart, Lua y Javascript,  se utiliza en estos lenguajes para interrumpir la ejecución de bucles en función de una condición dada, permitiendo salir prematuramente del bucle.
 
-Es decir, la sentencia **romper** termina de forma abrupta un bucle.
+**Dart**: `break` se utiliza para salir de un bucle (for o while) antes de su finalización.
 
-Esta condicional evalúa una condición y si el resultado es verdadero ejecuta las instrucciones descritas en ella.
+```dart
+int i = 0;
+while (i < 5) {
+  if (i == 3) {
+    break;
+  }
+  print(i);
+  i++;
+}
+```
 
-Latino tiene las siguientes declaraciones condicionales
+**Javascript:** `break` en se utiliza para salir de un bucle (for, while, o do...while) antes de que se complete su ciclo.
+
+```javascript 
+for (let i = 0; i < 5; i++) {
+  if (i === 3) {
+    break;
+  }
+  console.log(i);
+}
+```
+
+
+**Lua**: `break` se usa para salir de un bucle `for`, pero no funciona en bucles while.
+
+```lua
+for i = 1, 5 do
+  if i == 3 then
+    break
+  end
+  print(i)
+end
+
+```
+
+**Python**: `break` en Python se usa para salir inmediatamente de un bucle (for o while) antes de que se complete por completo su ciclo. 
+
+```python
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+```
+
+**Latino** La condición o sentencia Romper (Break) detiene las repeticiones (rompe) de los bucles si, mientras, rango y desde. Detiene la operación de un bucle y, el programa, continua con la siguiente operación. 
+
+```latino
+/*
+Mientras la operación sea verdadera
+este código escribirá en pantalla
+los siguientes números:
+0 1 2 3 4 5 
+*/
+
+i=0
+
+mientras i < 5
+  escribir(i)
+  i++            //incrementamos el valor de i
+fin
+```
