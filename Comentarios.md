@@ -23,6 +23,9 @@ Los comentarios son instrucciones que se incluyen en el código fuente para desc
 // esto es un comentario en Latino
 ```
 
+```latino
+# esto es otro comentario en Latino
+```
 **Javascript:**
 ```javascript 
 // Esto es un comentario de una sola línea
