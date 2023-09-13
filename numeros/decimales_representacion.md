@@ -22,7 +22,7 @@ En Lua, no hay una distinción explícita entre enteros y números decimales.
 local numeroDecimal = 53.14
 ```
 
-**Latino**: `decimale`
+**Latino**: `decimal`
 ```latino
 numero_decimal = 53.14
 ```
