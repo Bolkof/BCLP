@@ -1,3 +1,5 @@
+Para cambiar una cadena de caracteres en Latino, Python, Dart, Lua y JavaScript, puedes utilizar métodos o funciones específicas:
+
 ```
 @@ ==> variable string
 $$ ==> cadena buscar
@@ -8,7 +10,6 @@ $$ ==> cadena buscar
 
 
 
-En todos estos ejemplos, la cadena original se mantiene sin cambios, y el resultado del reemplazo se almacena en una nueva variable (`nueva_cadena`, `nuevaCadena`, o `nuevaCadena`, dependiendo del lenguaje).
 
 # **Latino**: 
 > %% = cadena.reemplazar.(@@, "$$", "&&") 
@@ -26,7 +27,6 @@ escribir(x)
 escribir(y)
 ```
 
-Para cambiar una cadena de caracteres en Latino, Python, Dart, Lua y JavaScript, puedes utilizar métodos o funciones específicas:
 
 **Python**: 
 > %% = @@.replace("$$","&&")
