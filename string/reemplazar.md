@@ -1,3 +1,11 @@
+> @@ ==> variable string
+> $$ ==> cadena buscar
+> && ==> cadena a colocar
+¬ %% ==> variable string con los cambios 
+>
+
+
+
 En todos estos ejemplos, la cadena original se mantiene sin cambios, y el resultado del reemplazo se almacena en una nueva variable (`nueva_cadena`, `nuevaCadena`, o `nuevaCadena`, dependiendo del lenguaje).
 
 # **Latino**: 
