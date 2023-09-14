@@ -1,7 +1,9 @@
-'@@ ==> variable string
+```
+@@ ==> variable string
 $$ ==> cadena buscar
 && ==> cadena a colocar
-%% ==> variable string con los cambios'
+%% ==> variable string con los cambios
+```
 
 
 
