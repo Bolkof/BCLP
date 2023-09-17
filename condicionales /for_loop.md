@@ -63,4 +63,4 @@ for (var i = 1; i < 6; i++) {
 }
 ```
 
-Estos ejemplos muestran cómo se utiliza el bucle "for" en Python, Dart, Lua y JavaScript para realizar iteraciones. Cada lenguaje tiene su propia sintaxis, pero la idea general de repetir un bloque de código un número específico de veces es común en todos ellos.
+Cada lenguaje tiene su propia sintaxis, pero la idea general de repetir un bloque de código un número específico de veces es común en todos ellos.
