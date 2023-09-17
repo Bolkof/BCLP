@@ -6,7 +6,7 @@ La estructura básica de un bucle "for" generalmente consta de tres partes:
 2. Condición: Se verifica una condición que debe ser verdadera para que el bucle continúe ejecutándose.
 3. Actualización: Se actualiza la variable de control en cada iteración del bucle.
 
-Los bucles "for" en Python, Dart, Lua y JavaScript tienen algunas diferencias en su sintaxis y funcionamiento. Aquí tienes ejemplos de cómo se utiliza el bucle "for" en cada uno de estos lenguajes:
+Los bucles "for" en Latino, Python, Dart, Lua y JavaScript tienen algunas diferencias en su sintaxis y funcionamiento. Aquí tienes ejemplos de cómo se utiliza el bucle "for" en cada uno de estos lenguajes:
 
 **Latino:**
 La condición Desde (For Loop) hace repetir un mismo código una y otra vez hasta que su expresión sea cumplida (sea verdadera).
@@ -24,7 +24,7 @@ El programa escribirá en pantalla:
 */
 
 desde (i = 0; i <= 6; i++)
-  escribir(i)
+  escribir("Interación", i)
 fin
 ```
 
