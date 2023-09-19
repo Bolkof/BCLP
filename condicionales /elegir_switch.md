@@ -1,4 +1,4 @@
-# Condicion SWITCH
+# Condicion SWITCH o ELEGIR
 
 Sí, existe una estructura de control llamada "switch" en varios lenguajes de programación, mientras que Python y Lua no tienen una construcción "switch" nativa y dependen "if-elif-else", Latino, Dart y JavaScript sí la tienen y se utilizan para manejar múltiples casos de manera más eficiente que una serie de declaraciones "if-elif-else".
 
