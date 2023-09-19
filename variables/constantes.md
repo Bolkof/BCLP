@@ -8,13 +8,11 @@ PI = 3.14
 VALOR_EXTRA = 9.8
 ```
 **Python:**
-En Python, se pueden declarar constantes utilizando letras mayúsculas y guiones bajos para separar palabras, aunque Python no impide que cambies el valor de estas constantes:
+En Python, se pueden declarar constantes utilizando letras mayúsculas y guiones bajos para separar palabras, aunque Python no impide que cambies el valor de estas constantes ya Que no existe este concepto.
 
 ```python
 MI_CONSTANTE = 10
 ```
-
-Sin embargo, ten en cuenta que en Python, el uso de mayúsculas y guiones bajos para nombrar constantes es una convención, y el valor aún puede ser modificado si deseas hacerlo.
 
 **Dart:**
 En Dart, puedes declarar constantes usando la palabra clave `final` o `const`:
