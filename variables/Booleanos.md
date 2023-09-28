@@ -1,4 +1,4 @@
-En Python, Dart, Latino, Lua y JavaScript, los booleanos se manejan de la siguiente manera:
+En Python, Dart, Latino, Lua, Javascript CoffeeScript, los booleanos se manejan de la siguiente manera:
 
 **Python:**
 - Los valores booleanos se representan como `True` y `False`. Es importante notar que los valores booleanos comienzan con mayúscula.
@@ -47,7 +47,10 @@ falso = Falso
 ```
 
 
-Los operadores lógicos se utilizan comúnmente en la toma de decisiones en programación.
+**CoffeeScrip:**los booleanos se representan de manera similar a python. Las palabras clave `true` y `false` en minúscula se utilizan para representar los valores booleanos `verdadero` y `falso`, respectivamente. 
 
+```coffeescript
+verdadero = true
+falso = false
+```
 
-En todos estos lenguajes, los valores booleanos se utilizan para expresar lógica condicional y control de flujo en estructuras como declaraciones `if`, bucles y expresiones booleanas en general.
