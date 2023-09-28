@@ -39,6 +39,18 @@ rl.question('Ingresa tu nombre: ', (nombre) => {
   rl.close();
 });
 ```
+**CoffeeScript :**
+```coffeescript
+readline = require('readline')
+
+rl = readline.createInterface
+  input: process.stdin
+  output: process.stdout
+
+rl.question 'Ingresa tu nombre: ', (nombre) ->
+  console.log 'Hola, ' + nombre
+  rl.close()
+```
 
 **Latino:**
 ```latino
