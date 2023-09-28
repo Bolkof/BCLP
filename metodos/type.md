@@ -46,6 +46,17 @@ console.log(typeof variable_js);
 // Esto imprimirá "object"
 ```
 
+### CoffeeScript 
+```
+variable_coffe = 42
+console.log typeof variable_coffe
+# Esto imprimirá 'number'
+
+variable_coffe = "Hola, mundo"
+console.log typeof variable_coffe
+# Esto imprimirá 'string'
+```
+ 
 ### Latino.
 ```latino
 x = 123
