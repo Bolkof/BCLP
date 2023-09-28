@@ -38,4 +38,14 @@ En JavaScript, las listas se representan utilizando corchetes `[]`, y al igual q
 var lista = [1, 2, 3, 4, 5];  // Ejemplo de una lista de números
 ```
 
+**CoffeeScript:**
+En CoffeeScript, puedes utilizar `[ ]` para crear una lista (similar a un array en JavaScript). En el ejemplo anterior, `lista` será una lista que contiene los números enteros del 1 al 5.
+
+```coffeescript
+lista = [1, 2, 3, 4, 5]  # Ejemplo de una lista de números enteros
+```
+
 Es importante destacar que en Lua, las "listas" se simulan utilizando tablas, que son estructuras de datos más versátiles y se pueden utilizar para representar matrices, listas y más. En Python, Dart y JavaScript, las listas son tipos de datos integrados que facilitan la gestión de colecciones de elementos.
+
+
+
