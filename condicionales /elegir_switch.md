@@ -74,6 +74,21 @@ switch (opcion) {
 }
 ```
 
+**CoffeeScript:**
+En CoffeeScript, el uso de `switch` y `case` es muy similar a JavaScript, pero con una sintaxis más concisa y legible. Las diferencias notables incluyen la falta de llaves `{}` y la omisión de la palabra clave `break`, lo que hace que el código sea más limpio y fácil de leer.
+
+```coffeescript
+opcion = 2
+
+switch opcion
+  when 1
+    console.log "Opción 1"
+  when 2
+    console.log "Opción 2"
+  else
+    console.log "Opción por defecto"
+```
+
 # Los que no tienen SWITCH
 
 **Python:**
@@ -105,18 +120,5 @@ else
 end
 ```
 
-**CoffeeScript:**
-En CoffeeScript, el uso de `switch` y `case` es muy similar a JavaScript, pero con una sintaxis más concisa y legible. Las diferencias notables incluyen la falta de llaves `{}` y la omisión de la palabra clave `break`, lo que hace que el código sea más limpio y fácil de leer.
 
-```coffeescript
-opcion = 2
-
-switch opcion
-  when 1
-    console.log "Opción 1"
-  when 2
-    console.log "Opción 2"
-  else
-    console.log "Opción por defecto"
-```
 
