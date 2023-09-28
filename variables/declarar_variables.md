@@ -141,7 +141,38 @@ edad = 30; // Esto causará un error porque intentamos cambiar una constante.
 
 Recuerda que las variables en JavaScript son de tipado dinámico, lo que significa que el tipo de dato de una variable puede cambiar durante la ejecución del programa.	
 
+# CoffeeScript 
 
+En CoffeeScript, las reglas para crear variables son bastante flexibles y siguen las mismas reglas que JavaScript en cuanto a nombres de variables. Aquí están las reglas clave para crear variables en CoffeeScript:
 
+1. **Nombres de variables:** Los nombres de variables pueden consistir en letras (mayúsculas o minúsculas), números, guiones bajos (_) y signos de dólar ($). Deben comenzar con una letra, guión bajo o signo de dólar.
+
+   Ejemplos válidos:
+   - `miVariable`
+   - `_variable_2`
+   - `$variable$`
+
+2. **Distingue mayúsculas de minúsculas:** CoffeeScript distingue entre mayúsculas y minúsculas en los nombres de variables. Por lo tanto, `miVariable` y `mivariable` son consideradas como variables diferentes.
+
+3. **Palabras reservadas:** No puedes utilizar palabras reservadas de CoffeeScript o JavaScript como nombres de variables. Algunas palabras clave comunes incluyen `if`, `else`, `while`, `for`, `function`, `var`, `let`, `const`, entre otras.
+
+   Ejemplo inválido:
+   - `if = 42` (no es válido porque `if` es una palabra reservada)
+
+4. **Variables locales y globales:** La forma en que declaras una variable determina si es local o global. Utiliza `var` para declarar variables globales y `let` o simplemente asigna un valor para declarar variables locales.
+
+   Ejemplos:
+   - `var variableGlobal = 42` (variable global)
+   - `let variableLocal = 42` (variable local)
+   - `variableLocal = 42` (variable local)
+
+5. **Constantes:** Utiliza `const` para declarar constantes cuyos valores no deben cambiar después de la asignación.
+
+   Ejemplo:
+   - `const PI = 3.14159`
+
+6. **Ámbito de las variables:** Ten en cuenta que CoffeeScript sigue las reglas de alcance de JavaScript. Las variables declaradas dentro de una función tienen un alcance local dentro de esa función, mientras que las declaradas fuera de cualquier función tienen un alcance global.
+
+Estas son las reglas básicas para crear variables en CoffeeScript. Asegúrate de seguir estas reglas al nombrar tus variables para evitar problemas de sintaxis y alcance en tu código.
 
 
