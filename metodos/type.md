@@ -47,7 +47,7 @@ console.log(typeof variable_js);
 ```
 
 ### CoffeeScript 
-```coffescript
+```coffeescript
 variable_coffe = 42
 console.log typeof variable_coffe
 # Esto imprimirá 'number'
