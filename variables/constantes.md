@@ -34,6 +34,8 @@ En JavaScript, puedes declarar constantes utilizando la palabra clave `const`:
 const miConstante = 10;
 ```
 
+**CoffeeScript:**
+En CoffeeScript, no existe un tipo de dato específico para definir constantes, como en algunos otros lenguajes de programación. De hay su diferencia negativa a Typescript 
 
 
 
