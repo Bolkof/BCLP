@@ -63,6 +63,49 @@ function miFuncion() {
 ```
 
 
+**CoffeeScript:**
+La indentación en CoffeeScript es fundamental y define la estructura del código en lugar de utilizar llaves `{}` o palabras clave como en algunos otros lenguajes de programación. La indentación se utiliza para delimitar bloques de código, como funciones, bucles, condicionales y otros elementos estructurales.
+
+Las reglas básicas para la indentación en CoffeeScript son las siguientes:
+
+1. Utiliza espacios, no tabulaciones: CoffeeScript generalmente utiliza espacios en lugar de tabulaciones para la indentación. La cantidad de espacios generalmente se establece en 2 o 4 espacios, dependiendo de la preferencia del desarrollador o las convenciones del proyecto.
+
+2. Bloques de código: Los bloques de código se definen por la cantidad de espacios al principio de una línea. Un aumento en la cantidad de espacios indica un bloque interior. Por ejemplo, dentro de una función, el código se encuentra más indentado que el código fuera de la función.
+
+Ejemplo de una función en CoffeeScript con indentación:
+
+```coffeescript
+miFuncion = (parametro) ->
+  # Este código está dentro de la función
+  if parametro
+    # Este bloque está más indentado
+    console.log("El parámetro es verdadero")
+  else
+    console.log("El parámetro es falso")
+# Este código está fuera de la función y no está indentado
+```
+
+3. Continuación de líneas: Si una línea de código es demasiado larga para ajustarse en una sola línea, puedes dividirla en varias líneas con un backslash `\`. La siguiente línea debe tener una indentación mayor que la línea anterior.
+
+Ejemplo de una línea dividida en CoffeeScript:
+
+```coffeescript
+resultado = operacion_larga() + \
+           otra_operacion_larga()
+```
+
+4. Comentarios: Los comentarios también siguen las reglas de indentación. Deben estar alineados con el nivel de indentación del código que están comentando.
+
+Ejemplo de comentarios en CoffeeScript:
+
+```coffeescript
+# Este es un comentario alineado correctamente
+variable = 42
+```
+
+Es importante ser coherente con la indentación en CoffeeScript, ya que cualquier error en la alineación de los espacios puede provocar errores de sintaxis o comportamientos inesperados en el código. La mayoría de los editores de código y entornos de desarrollo ofrecen funciones automáticas de indentación para facilitar el trabajo con CoffeeScript.
+
+
 
 
 
