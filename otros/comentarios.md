@@ -30,7 +30,10 @@ Los comentarios son instrucciones que se incluyen en el código fuente para desc
 ```javascript 
 // Esto es un comentario de una sola línea
 ```
-
+**CoffeeScript:**
+```coffescript
+# Esto es un comentario de una sola línea
+```
 
 ## Comentarios de múltiples lineas
 
@@ -91,9 +94,16 @@ no se ejecutara al iniciar el programa
 */
 ```
 
+**CoffeeScript:**
+```coffeescript
+# Este es un comentario de una línea
+# Este es otro comentario de una línea
+# Esto simula un comentario de múltiples líneas
+```
+
 ## Comentarios de Documentacion
 
-Tanto Lua como en Latino no un formato estándar o fueron pensados para tener comentarios de documentación 
+Tanto Lua como en Latino como CoffeeScript no usan un formato estándar o fueron pensados para tener comentarios de documentación 
 
 **Python (Usando docstrings):**
 En Python, los comentarios de documentación se suelen agregar utilizando docstrings, que son cadenas de texto multilinea colocadas al principio de una función, clase o módulo para describir su propósito y uso.
