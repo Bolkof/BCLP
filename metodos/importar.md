@@ -13,9 +13,7 @@ fs.readFile('archivo.txt', 'utf8', (err, data) => {
 });
 ```
 
-**CoffeeScript :**
-
-En CoffeeScript, la forma de importar módulos o archivos externos depende del entorno en el que estés trabajando. CoffeeScript en sí mismo no proporciona un sistema de módulos incorporado como algunos otros lenguajes, como JavaScript (que utiliza `import` y `require`), ya que CoffeeScript se compila directamente a JavaScript y, por lo tanto, hereda las características de módulos de JavaScript del entorno en el que se ejecuta.
+**CoffeeScript :** En CoffeeScript, la forma de importar módulos o archivos externos depende del entorno en el que estés trabajando. CoffeeScript en sí mismo no proporciona un sistema de módulos incorporado como algunos otros lenguajes, como JavaScript (que utiliza `import` y `require`), ya que CoffeeScript se compila directamente a JavaScript y, por lo tanto, hereda las características de módulos de JavaScript del entorno en el que se ejecuta.
 
 **Node.js** (usando CommonJS):
 
