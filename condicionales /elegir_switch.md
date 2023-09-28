@@ -1,6 +1,6 @@
 # Condicion SWITCH o ELEGIR
 
-Sí, existe una estructura de control llamada "switch" en varios lenguajes de programación, mientras que Python y Lua no tienen una construcción "switch" nativa y dependen "if-elif-else", Latino, Dart y JavaScript sí la tienen y se utilizan para manejar múltiples casos de manera más eficiente que una serie de declaraciones "if-elif-else".
+Sí, existe una estructura de control llamada "switch" en varios lenguajes de programación, mientras que Python y Lua no tienen una construcción "switch" nativa y dependen "if-elif-else", Latino, Dart, JavaScript y CoffeeScript sí la tienen y se utilizan para manejar múltiples casos de manera más eficiente que una serie de declaraciones "if-elif-else".
 
 ## Los que si tienen SWITCH
 
@@ -104,3 +104,19 @@ else
     print("Opción por defecto")
 end
 ```
+
+**CoffeeScript:**
+En CoffeeScript, el uso de `switch` y `case` es muy similar a JavaScript, pero con una sintaxis más concisa y legible. Las diferencias notables incluyen la falta de llaves `{}` y la omisión de la palabra clave `break`, lo que hace que el código sea más limpio y fácil de leer.
+
+```coffeescript
+opcion = 2
+
+switch opcion
+  when 1
+    console.log "Opción 1"
+  when 2
+    console.log "Opción 2"
+  else
+    console.log "Opción por defecto"
+```
+
