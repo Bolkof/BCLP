@@ -27,6 +27,21 @@ true try typedef var void
 while with yield
 ```
 
+**CoffeeScript:**
+```
+and       ->       in        this
+break     is       throw     instanceof
+continue  not      true      typeof
+debugger  no       unless    undefined
+delete    null     until     var
+do        of       void      when
+else      off      while     with
+extends   or       yes       yield
+false     return   yield*    for
+if        switch   try       catch
+import    then     finally   super
+```
+
 **Lua:**
 Lua tiene un conjunto pequeño de palabras clave o reservadas que son parte del lenguaje y no pueden utilizarse como nombres de variables, funciones, o tablas. Algunas de las palabras clave en Lua son:
 ```
