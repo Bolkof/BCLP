@@ -103,4 +103,29 @@ if (cadena.includes(subcadena)) {
 const subcadena = cadena.slice(0, 5); // Obtiene "Hola,"
 ```
 
+**CoffeeScript :**
+```coffeescript
+# Declaración de una cadena
+cadena = "Hola, mundo!"
+
+# Concatenación de cadenas
+saludo = "Hola"
+nombre = "Juan"
+mensaje = "#{saludo}, #{nombre}!"
+
+# Acceso a caracteres individuales
+primer_caracter = cadena[0]
+
+# Longitud de una cadena
+longitud = cadena.length
+
+# Búsqueda en una cadena
+subcadena = "mundo"
+if cadena.indexOf(subcadena) != -1
+  console.log("Encontrado")
+
+# Slicing (rebanado) de cadenas
+subcadena = cadena[0..4]  # Obtiene "Hola,"
+```
+
 
