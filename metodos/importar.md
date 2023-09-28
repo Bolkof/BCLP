@@ -13,6 +13,29 @@ fs.readFile('archivo.txt', 'utf8', (err, data) => {
 });
 ```
 
+**CoffeeScript :**
+
+En CoffeeScript, la forma de importar módulos o archivos externos depende del entorno en el que estés trabajando. CoffeeScript en sí mismo no proporciona un sistema de módulos incorporado como algunos otros lenguajes, como JavaScript (que utiliza `import` y `require`), ya que CoffeeScript se compila directamente a JavaScript y, por lo tanto, hereda las características de módulos de JavaScript del entorno en el que se ejecuta.
+
+**Node.js** (usando CommonJS):
+
+```coffeescript
+# Importar un módulo de Node.js
+fs = require 'fs'
+```
+
+**Navegador** (usando `<script>` tags en HTML):
+
+```html
+<!-- Incluye tu archivo CoffeeScript compilado en el HTML -->
+<script src="tu_archivo_compilado.js"></script>
+```
+
+Ten en cuenta que, si estás trabajando en un entorno específico, como un marco o una biblioteca de JavaScript (por ejemplo, React, Angular o Vue.js), esas herramientas pueden proporcionar métodos específicos para importar módulos. Asegúrate de consultar la documentación correspondiente a tu entorno de desarrollo específico para obtener detalles sobre cómo importar módulos en ese contexto.
+
+
+
+
 **Python:**
 En Python, puedes importar módulos utilizando la palabra clave `import`. Aquí hay un ejemplo de cómo importar el módulo `math` para realizar operaciones matemáticas:
 
