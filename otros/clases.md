@@ -1,5 +1,5 @@
 
-Por supuesto, aquí tienes ejemplos de cómo crear una clase en Python, Dart, Lua, CoffeeScript y JavaScript:
+Estos son ejemplos simples de cómo definir y utilizar una clase en cada uno de estos lenguajes. Cada ejemplo crea una clase `Persona` con propiedades (nombre y edad) y un método (saludar) para imprimir un mensaje de saludo. Aquí tienes ejemplos de cómo crear una clase en Python, Dart, Lua, CoffeeScript y JavaScript:
 
 **Python:**
 
@@ -95,4 +95,3 @@ const persona1 = new Persona("Juan", 30);
 persona1.saludar();
 ```
 
-Estos son ejemplos simples de cómo definir y utilizar una clase en cada uno de estos lenguajes. Cada ejemplo crea una clase `Persona` con propiedades (nombre y edad) y un método (saludar) para imprimir un mensaje de saludo.
