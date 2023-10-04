@@ -128,4 +128,64 @@ if cadena.indexOf(subcadena) != -1
 subcadena = cadena[0..4]  # Obtiene "Hola,"
 ```
 
+## string de multiples lineas.
+Latino, Python, Dart, Lua, CoffeeScript y JavaScript:
 
+**Python:**
+```python
+multiline_string = """Este es un
+ejemplo de string
+de múltiples líneas
+en Python."""
+```
+
+**Dart:**
+```dart
+String multilineString = '''
+Este es un
+ejemplo de string
+de múltiples líneas
+en Dart.
+''';
+```
+
+**Lua:**
+```lua
+multilineString = [[
+Este es un
+ejemplo de string
+de múltiples líneas
+en Lua.
+]]
+```
+
+**CoffeeScript:**
+```coffeescript
+multilineString = '''
+Este es un
+ejemplo de string
+de múltiples líneas
+en CoffeeScript.
+'''
+```
+
+**JavaScript:**
+```javascript
+const multilineString = `
+Este es un
+ejemplo de string
+de múltiples líneas
+en JavaScript.
+`;
+```
+
+
+**Latino:**
+```paintext
+cadena_multiple = `
+Este es un
+ejemplo de cadena de caracteres
+de múltiples líneas
+en Latino.
+`;
+```
