@@ -47,7 +47,8 @@ falso = Falso
 ```
 
 
-**CoffeeScrip:**los booleanos se representan de manera similar a python. Las palabras clave `true` y `false` en minúscula se utilizan para representar los valores booleanos `verdadero` y `falso`, respectivamente. 
+**CoffeeScrip:** 
+- los booleanos se representan de manera similar a python. Las palabras clave `true` y `false` en minúscula se utilizan para representar los valores booleanos `verdadero` y `falso`, respectivamente. 
 
 ```coffeescript
 verdadero = true
