@@ -1,4 +1,4 @@
-Por supuesto, aquí tienes ejemplos de cómo manejar cadenas (strings) en Python, Dart, Lua y JavaScript:
+## algunis ejemplos sencillod
 
 **Python:**
 ```python
@@ -182,10 +182,10 @@ en JavaScript.
 
 **Latino:**
 ```paintext
-cadena_multiple = `
+cadena_multiple = "
 Este es un
 ejemplo de cadena de caracteres
 de múltiples líneas
 en Latino.
-`;
+"
 ```
