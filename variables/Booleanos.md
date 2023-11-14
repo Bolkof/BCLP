@@ -14,8 +14,8 @@ falso = False
 
 Ejemplo:
 ```dart
-var verdadero = true;
-var falso = false;
+bool verdadero = true;
+bool falso = false;
 ```
 
 **Lua:**
