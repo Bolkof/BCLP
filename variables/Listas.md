@@ -43,6 +43,8 @@ print(table.concat(squaredNumbers, ", "))
 Estos ejemplos muestran cómo construir una nueva lista aplicando una operación a cada elemento de la lista original. Ten en cuenta que el enfoque puede variar ligeramente entre los lenguajes, pero la idea principal es crear una nueva lista mediante la aplicación de una expresión o operación a cada elemento de la lista original
 
 # listas en dart
+
+Dart no es necesario especificar el tipo de elementos que contendrá una lista al declararla.
 En el primer ejemplo, Dart infiere el tipo automáticamente. En el segundo ejemplo, se especifica que la lista puede contener cualquier tipo (`dynamic`). En el tercer ejemplo, se especifica que la lista debe contener únicamente enteros (`int`). La elección del enfoque depende de tus necesidades y preferencias en cuanto a tipado.
 ### Sin especificar tipo:
 ```dart
@@ -60,7 +62,9 @@ void main() {
 }
 ```
 
-### Especificando tipo específico (en este caso, int):
+### Especificando tipo específico
+
+En este caso, int:
 ```dart
 void main() {
   List<int> lista3 = [1, 2, 3, 4, 5];
@@ -68,4 +72,27 @@ void main() {
 }
 ```
 
-En el primer ejemplo, Dart infiere el tipo automáticamente. En el segundo ejemplo, se especifica que la lista puede contener cualquier tipo (`dynamic`). En el tercer ejemplo, se especifica que la lista debe contener únicamente enteros (`int`). La elección del enfoque depende de tus necesidades y preferencias en cuanto a tipado.
+```dart
+void main() {
+  // Lista de enteros
+  List<int> listaEnteros = [1, 2, 3, 4, 5];
+  print("Lista de enteros: $listaEnteros");
+
+  // Lista de cadenas de texto
+  List<String> listaCadenas = ['Hola', 'Mundo', 'Dart'];
+  print("Lista de cadenas: $listaCadenas");
+
+  // Lista de booleanos
+  List<bool> listaBooleanos = [true, false, true];
+  print("Lista de booleanos: $listaBooleanos");
+
+  // Lista de números de punto flotante (double)
+  List<double> listaDoubles = [1.5, 2.0, 3.7];
+  print("Lista de doubles: $listaDoubles");
+
+  // Lista de elementos dinámicos
+  var listaDinamica = [1, 'dos', true, 3.14];
+  print("Lista dinámica: $listaDinamica");
+}
+```
+
