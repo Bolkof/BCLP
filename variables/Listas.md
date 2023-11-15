@@ -71,7 +71,7 @@ void main() {
   print(lista3); // Lista de enteros
 }
 ```
-
+Resumiendo
 ```dart
 void main() {
   // Lista de enteros
