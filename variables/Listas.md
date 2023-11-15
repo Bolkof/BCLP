@@ -42,5 +42,30 @@ print(table.concat(squaredNumbers, ", "))
 
 Estos ejemplos muestran cómo construir una nueva lista aplicando una operación a cada elemento de la lista original. Ten en cuenta que el enfoque puede variar ligeramente entre los lenguajes, pero la idea principal es crear una nueva lista mediante la aplicación de una expresión o operación a cada elemento de la lista original
 
+# listas en dart
+En el primer ejemplo, Dart infiere el tipo automáticamente. En el segundo ejemplo, se especifica que la lista puede contener cualquier tipo (`dynamic`). En el tercer ejemplo, se especifica que la lista debe contener únicamente enteros (`int`). La elección del enfoque depende de tus necesidades y preferencias en cuanto a tipado.
+### Sin especificar tipo:
+```dart
+void main() {
+  var lista1 = [1, 2, 3, 4, 5];
+  print(lista1); // Lista de elementos dinámicos
+}
+```
 
-.
+### Especificando tipo dinámico:
+```dart
+void main() {
+  List<dynamic> lista2 = [1, 'dos', true];
+  print(lista2); // Lista de elementos dinámicos
+}
+```
+
+### Especificando tipo específico (en este caso, int):
+```dart
+void main() {
+  List<int> lista3 = [1, 2, 3, 4, 5];
+  print(lista3); // Lista de enteros
+}
+```
+
+En el primer ejemplo, Dart infiere el tipo automáticamente. En el segundo ejemplo, se especifica que la lista puede contener cualquier tipo (`dynamic`). En el tercer ejemplo, se especifica que la lista debe contener únicamente enteros (`int`). La elección del enfoque depende de tus necesidades y preferencias en cuanto a tipado.
