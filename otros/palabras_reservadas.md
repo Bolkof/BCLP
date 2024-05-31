@@ -66,10 +66,38 @@ var  void  while  with
 
 **Latino:**
 ```
-caso cierto verdadero continuar defecto otro
-desde elegir error escribir imprimir poner
-falso fin funcion fun global hasta imprimirf
-incluir mientras nulo osi repetir retorno
-Retornar ret romper si sino tipo rango ir
+caso
+cierto
+continuar
+defecto
+desde
+elegir
+error
+escribir
+falso
+fin
+fun
+funcion
+global
+hasta
+imprimir
+imprimirf
+incluir
+ir
+mientras
+nulo
+osi
+otro
+poner
+rango
+repetir
+ret
+retornar
+retorno
+romper
+si
+sino
+tipo
+verdadero
 ```
 Estas palabras reservadas son importantes para el correcto funcionamiento de los lenguajes y deben evitarse como nombres de variables o funciones en tu código.
